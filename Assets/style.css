@@ -68,14 +68,19 @@ nav {
   
 
 .web-dev {
-  border-style: solid;
-  border-radius: 2px;
-  border-color: red;
   font-size: 25px;
   position: absolute;
   right: 50px;
+  margin-top: 150px;
+  color: var(--Font-color);
+  background-color: var(--Background1);
+  border: 10px;
+  border-style: solid;
+  border-color: var(--Background1)
+
 
 }
+
 
 aside {
   width: 10%;
@@ -83,12 +88,30 @@ aside {
   position: relative;
 }
 
+
+
 aside::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 110%;
-  display: block;
-  background: none repeat scroll 0 0 transparent;
-  height: 100%;
-  width: 2px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 110%;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 200%;
+    width: 2px;
+    background:black;
+}
+
+article {
+  width: 80%;
+  margin: 30px;
+}
+
+.aboutme {
+  display: flex;
+  width: 100px;
+  margin-left: 30px;
+  font-size: 25px;
+  
+}
+
